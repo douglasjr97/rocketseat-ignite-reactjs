@@ -1,5 +1,16 @@
-import './styles/global.css';
+import { Counter } from './components/Counter';
+import { RepositoryList } from './components/RepositoryList';
+import { Fragment } from 'react';
+import './styles/global.scss';
 
 export function App(){
-    return <h1>Hello World</h1>
+    return(
+        <Fragment>
+        <RepositoryList/>
+        <Counter/>
+        
+        </Fragment>
+
+        )
+
 }
