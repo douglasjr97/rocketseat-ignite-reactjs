@@ -7,7 +7,7 @@ export function App(){
     return(
         <Fragment>
         <RepositoryList/>
-        <Counter/>
+       
         
         </Fragment>
 
